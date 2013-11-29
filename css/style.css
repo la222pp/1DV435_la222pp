@@ -21,7 +21,10 @@ body {
    margin-left:10px;
 }
 
-ul {
+
+/* menyer */
+
+#nav ul {
    border:1px solid black;
    border-bottom:none;
    width:150px;
@@ -29,24 +32,24 @@ ul {
    position:absolute;
 }
 
-li {
+#nav li {
     list-style-type:none;
     border-bottom:1px solid black;
 }
 
-li a {
+#nav li a {
     display:block;
     padding:10px;
     background-color:#9C9;
     color:#EFE;
 }
 
-li a:hover {
+#nav li a:hover {
     color:#008080;
     background-color:#EFE;
 }
 
-p {color: #778899;}
+p {color: #778899;}  
 a:link    {color:black;}
 a:visited {color:purple;}
 a:focus   {color:green;}
@@ -56,6 +59,10 @@ a:active  {color:silver;}
 #nav {
     font-family:tahoma;
 }
+
+/* end menyer */
+
+
 
 #content {
     background-color:#FDF5E6;
@@ -67,11 +74,15 @@ a:active  {color:silver;}
     background-color:#FDF5E6;
     margin-right:10px;
     margin-left:10px;
+    margin-top:10px;
     padding:1px;
 }
 
-
-
+/* Kontakt.html */
+#rubrik H3 {
+    color:#778899;
+}
+/* end Kontakt.html */
 
 
 
