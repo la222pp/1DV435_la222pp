@@ -16,6 +16,7 @@ body {
 
 #header {
    background-color:#FDF5E6;
+   font-family:georgia;
    margin-right:10px;
    margin-left:10px;
 }
@@ -51,6 +52,10 @@ a:visited {color:purple;}
 a:focus   {color:green;}
 a:hover   {color:orange;}
 a:active  {color:silver;}
+
+#nav {
+    font-family:tahoma;
+}
 
 #content {
     background-color:#FDF5E6;
