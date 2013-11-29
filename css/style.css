@@ -1,21 +1,21 @@
 
 
 body {
-    color:#000000;
+    color:#FAEBD7;
     font-family:times;
     font-size:1EM;
-    background-color:#FEFEFE;
+    background:url(pics/1389017.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
 }
 
 #container {
     width:960px;
-    background-color:#FEFEFE;
     margin-right:auto;
     margin-left:auto;
 }
 
 #header {
-   background-color:#FDF5E6;
    font-family:georgia;
    margin-right:10px;
    margin-left:10px;
@@ -62,16 +62,16 @@ a:active  {color:silver;}
 
 /* end menyer */
 
-
+li {
+    color:#FAEBD7;
+}
 
 #content {
-    background-color:#FDF5E6;
     margin-right:10px;
     margin-left:180px;
 }
 
 #footer {
-    background-color:#FDF5E6;
     margin-right:10px;
     margin-left:10px;
     margin-top:10px;
