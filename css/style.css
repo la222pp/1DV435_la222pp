@@ -4,10 +4,9 @@ body {
     color:#FAEBD7;
     font-family:times;
     font-size:1EM;
-    background-color:#000;
-    /*background:url(pics/1389017.jpg);*/
+    background:url(pics/pattern.jpg);
     background-attachment: fixed;
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     margin: 0;
     padding: 0;
 }
@@ -22,6 +21,8 @@ h1{margin:0;}
 
 #header {
     background-color:#292929;
+    background:url(pics/DSC_0605.jpg);
+    background-attachment:fixed;
     font-family:georgia;
     height:100px;
 }
@@ -41,7 +42,7 @@ a:active  {background-color:#A9A9A9; color:black;}
 #menu {
     font-family:tahoma;
     width:100%;
-    background-color:#A9A9A9;
+    background-color:#353535;
     height:40px;
 }
 
@@ -54,35 +55,35 @@ a:active  {background-color:#A9A9A9; color:black;}
 /* end menyer */
 
 #start {
-    background-color:#A9A9A9; 
+    background-color:#353535; 
     color:black;
     float:left;
     margin:5px;
 }
 
 #presentation {
-   background-color:#A9A9A9; 
+   background-color:#353535; 
    color:black; 
    float:left;
    margin:5px;
 }
 
 #laborationer {
-   background-color:#A9A9A9; 
+   background-color:#353535; 
    color:black; 
    float:left;
    margin:5px;
 }
 
 #kontakt {
-   background-color:#A9A9A9; 
+   background-color:#353535; 
    color:black; 
    float:left;
    margin:5px;
 }
 
 .list {
-    background-color:#A9A9A9;
+    background-color:#353535;
     float:left;
     margin:5px;
 }
@@ -108,6 +109,7 @@ a:active  {background-color:#A9A9A9; color:black;}
 
 .bildTulpaner {
     float:right;
+    margin-left:50px;
 }
 
 .picMe {
