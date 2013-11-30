@@ -4,10 +4,15 @@ body {
     color:#FAEBD7;
     font-family:times;
     font-size:1EM;
-    background:url(pics/1389017.jpg);
+    background-color:#000;
+    /*background:url(pics/1389017.jpg);*/
     background-attachment: fixed;
     background-repeat:no-repeat;
+    margin: 0;
+    padding: 0;
 }
+
+h1{margin:0;}
 
 #container {
     width:960px;
@@ -16,81 +21,70 @@ body {
 }
 
 #header {
-   font-family:georgia;
-   margin-right:10px;
-   margin-left:40px;
+    background-color:#292929;
+    font-family:georgia;
+    height:100px;
 }
 
 
 /* menyer */
 
-#nav ul {
-   border:1px solid black;
-   border-bottom:none;
-   width:150px;
-   margin:10px; padding:0;
-   position:absolute;
-}
-
-#nav li {
-    list-style-type:none;
-    border-bottom:1px solid black;
-}
-
-
-#nav li a {
-    display:block;
-    padding:10px;
-}
-
-#nav li a:hover {
-    color:#008080;
-    background-color:#EFE;
-}
 
 p {color: #778899;}  
-a:link    {color:#FEFEFE;}
-a:visited {color:purple;}
-a:focus   {color:green;}
-a:hover   {color:#778899;}
-a:active  {background-color:#FEFEFE; color:black;}
+a:link    {color:white;}
+a:visited {color:#FEFEFE;}
+a:focus   {color:#778899;}
+a:hover   {color:#FAEBD7;}
+a:active  {background-color:#A9A9A9; color:black;}
 
 
-#nav {
+#menu {
     font-family:tahoma;
-    position:absolute;
-    margin-top:-4px;
-    
+    width:100%;
+    background-color:#A9A9A9;
+    height:40px;
+}
+
+#menuChoises {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
 }
 
 /* end menyer */
 
 #start {
-    background-color:#FEFEFE; 
+    background-color:#A9A9A9; 
     color:black;
+    float:left;
+    margin:5px;
 }
 
 #presentation {
-   background-color:#FEFEFE; 
+   background-color:#A9A9A9; 
    color:black; 
+   float:left;
+   margin:5px;
 }
 
 #laborationer {
-   background-color:#FEFEFE; 
+   background-color:#A9A9A9; 
    color:black; 
+   float:left;
+   margin:5px;
 }
 
 #kontakt {
-   background-color:#FEFEFE; 
+   background-color:#A9A9A9; 
    color:black; 
+   float:left;
+   margin:5px;
 }
 
 .list {
-    background-color:#696969;
-}
-
-ul {
-    color:#FAEBD7;
+    background-color:#A9A9A9;
+    float:left;
+    margin:5px;
 }
 
 #content {
@@ -99,10 +93,8 @@ ul {
 }
 
 #footer {
-    margin-right:10px;
-    margin-left:10px;
-    margin-top:10px;
-    padding:1px;
+    background-color:#292929;
+    height:100px;
 }
 
 /* Kontakt.html */
@@ -118,7 +110,10 @@ ul {
     float:right;
 }
 
-
+.picMe {
+    float:left;
+    margin-right:50px;
+}
 
 
 
