@@ -18,7 +18,7 @@ body {
 #header {
    font-family:georgia;
    margin-right:10px;
-   margin-left:10px;
+   margin-left:40px;
 }
 
 
@@ -37,11 +37,10 @@ body {
     border-bottom:1px solid black;
 }
 
+
 #nav li a {
     display:block;
     padding:10px;
-    background-color:#9C9;
-    color:#EFE;
 }
 
 #nav li a:hover {
@@ -50,19 +49,47 @@ body {
 }
 
 p {color: #778899;}  
-a:link    {color:black;}
+a:link    {color:#FEFEFE;}
 a:visited {color:purple;}
 a:focus   {color:green;}
-a:hover   {color:orange;}
-a:active  {color:silver;}
+a:hover   {color:#778899;}
+a:active  {background-color:#FEFEFE; color:black;}
+
 
 #nav {
     font-family:tahoma;
+    position:absolute;
+    margin-top:-4px;
+    
 }
 
 /* end menyer */
 
-li {
+#start {
+    background-color:#FEFEFE; 
+    color:black;
+}
+
+#presentation {
+   background-color:#FEFEFE; 
+   color:black; 
+}
+
+#laborationer {
+   background-color:#FEFEFE; 
+   color:black; 
+}
+
+#kontakt {
+   background-color:#FEFEFE; 
+   color:black; 
+}
+
+.list {
+    background-color:#696969;
+}
+
+ul {
     color:#FAEBD7;
 }
 
@@ -79,8 +106,10 @@ li {
 }
 
 /* Kontakt.html */
-#rubrik H3 {
+
+#tillbaka {
     color:#778899;
+    margin-left:20px;
 }
 /* end Kontakt.html */
 
