@@ -33,10 +33,10 @@ h1{margin:0;}
 
 p {color: #778899;}  
 a:link    {color:white;}
-a:visited {color:#FEFEFE;}
-a:focus   {color:#778899;}
+a:visited {color:#778899;}
+a:focus   {color:#545554;}
 a:hover   {color:#FAEBD7;}
-a:active  {background-color:#A9A9A9; color:black;}
+a:active  {background-color:#353535; color:545554;}
 
 
 #menu {
@@ -55,28 +55,28 @@ a:active  {background-color:#A9A9A9; color:black;}
 /* end menyer */
 
 #start {
-    background-color:#353535; 
+    background-color:#252525; 
     color:black;
     float:left;
     margin:5px;
 }
 
 #presentation {
-   background-color:#353535; 
+   background-color:#252525; 
    color:black; 
    float:left;
    margin:5px;
 }
 
 #laborationer {
-   background-color:#353535; 
+   background-color:#252525; 
    color:black; 
    float:left;
    margin:5px;
 }
 
 #kontakt {
-   background-color:#353535; 
+   background-color:#252525; 
    color:black; 
    float:left;
    margin:5px;
@@ -117,7 +117,11 @@ a:active  {background-color:#A9A9A9; color:black;}
     margin-right:50px;
 }
 
-
+.heartIcon {
+    float:left;
+    margin-right:10px;
+    
+}
 
 
 
