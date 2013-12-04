@@ -1,4 +1,15 @@
 
+@media print {
+    body { font-family: Georgia, Times, serif; font-size: 10pt; }
+    body { color: #000000; background-color: #ffffff; }
+    p { font-family: Georgia, Times, serif; font-size: 12pt; }
+    a:link { color: #0000cc; text-decoration: underline; } 
+    a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal; }
+    
+    #menu {display:none;}
+    #container {float:none;}
+    #content {float:none; width:auto; margin-left:10px;}
+}    
 
 body {
     color:#FAEBD7;
