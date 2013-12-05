@@ -49,7 +49,7 @@ a:focus   {color:#545554;}
 a:hover   {color:#FAEBD7;}
 a:active  {background-color:#353535; color:545554;}
 
-
+/* menu
 #menu {
     font-family:tahoma;
     width:100%;
@@ -62,8 +62,6 @@ a:active  {background-color:#353535; color:545554;}
     margin-right:auto;
     width:960px;
 }
-
-/* end menyer */
 
 #start {
     background-color:#252525; 
@@ -103,6 +101,39 @@ a:active  {background-color:#353535; color:545554;}
     margin:5px;
     border:1px solid #252525;
 }
+
+/* end menyer */
+
+#social-list {
+   background-color: #353535 ; 
+}
+
+#social-list a {
+    width:24px;
+    height:24px;
+    margin:10px;
+    display:block;
+    background-image:url(pics/sprite.png);
+    background-color: #353535 ;
+    text-indent:-99999px;
+}
+
+#social-list li {
+    float:left;
+    list-style-type:none;
+}
+
+#hem { background-position: 0 312px; float:left; }
+#hem:hover { background-position: 0 360px; float:left;}
+
+#hammare { background-position: 0 216px; float:left; }
+#hammare:hover { background-position: 0 264px; float:left; }
+
+#presentation { background-position: 0 120px; float:left; }
+#presentation:hover { background-position: 0 168px; float:left; }
+
+#kontakt { background-position: 0 24px; float:left; }
+#kontakt:hover { background-position: 0 72px; float:left; }
 
 #content {
     margin-right:10px;
