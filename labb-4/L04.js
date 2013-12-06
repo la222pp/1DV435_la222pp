@@ -119,7 +119,13 @@ function test7(firstname, surname) {
 //(se länktips i handledningen)
 function test8(words) {
 	
-	// Din kod skrivs här
+	// skapat två variabler + hämtat ifrån words, första mellanslaget + 1
+	var lastSpace = words.lastIndexOf(" ");
+	var lastWord = words.substr(lastSpace+1);
+	// returnerar sista ordet som är sista mellanslaget + 1
+	return lastWord;
+	
+	
 }
 
 /*
