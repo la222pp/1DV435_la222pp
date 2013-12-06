@@ -20,11 +20,12 @@ function test1() {
 // Multiplicera sedan de två variablerna, returnera produkten
 function test2() {
 	
-	
+	// skapar två variabler och ger dem värden
 	var num1 = 2.5
 	var num2 = 8
+	// multiplicerar variablerna
 	var result = num1 * num2;
-	
+	// returnerar resultatet 
 	return result ;
 	
 }
@@ -38,8 +39,9 @@ function test2() {
 // Minska den som heter tal1 med den som heter tal2 och returnera resultatet av denna beräkning
 function test3(tal1, tal2) {
 	
+	// minskar tal1 med tal2
 	var result = tal1 - tal2;
-	
+	// returnerar resultatet 
 	return result;
 	
 }
@@ -52,7 +54,9 @@ function test3(tal1, tal2) {
 // Använd funktionen Math.round
 function test4(tal) {
 	
-	// Din kod skrivs här
+	var result = Math.round(tal);
+	
+	return result;
 }
 
 
