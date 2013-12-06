@@ -54,8 +54,9 @@ function test3(tal1, tal2) {
 // Använd funktionen Math.round
 function test4(tal) {
 	
+	// skpar en variabel för Math
 	var result = Math.round(tal);
-	
+	// returnerar resultatet av Math.round för "tal"
 	return result;
 }
 
@@ -66,7 +67,10 @@ function test4(tal) {
 // returnera längden på variablen text som kommer in som parameter. Variablen är av datatypen string
 function test5(text) {
 	
-	// Din kod skrivs här
+	var lengthOfString = text.length;
+	
+	return lengthOfString;
+	
 	
 }
 
