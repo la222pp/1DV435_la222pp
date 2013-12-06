@@ -135,7 +135,13 @@ function test8(words) {
 // annars ska en boolean false resturneras
 function test9(number) {
 	
-	// Din kod skrivs här
+	// skapat variabel för min boolean
+	var myBoolean = Boolean (false);
+	// om numret är >100 eller =100 är min boolean sann, om inte är den falsk
+	if (number >=100) {myBoolean = true}
+	else {myBoolean = false}
+	// returnerat min boolean
+	return myBoolean;
 }
 
 /*
