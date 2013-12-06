@@ -67,10 +67,10 @@ function test4(tal) {
 // returnera längden på variablen text som kommer in som parameter. Variablen är av datatypen string
 function test5(text) {
 	
+	// skapat en variabel + tagit reda på längd av 'text'
 	var lengthOfString = text.length;
-	
+	// returnerat längd av 'text'
 	return lengthOfString;
-	
 	
 }
 
@@ -81,7 +81,9 @@ function test5(text) {
 // Returnera den näst sista bokstaven i textsträngen som kommer in i parametern text
 function test6(text) {
 	
-	// Din kod skrivs här
+	var locate_x = text.charAt(text.length-2);
+	
+	return locate_x;
 	
 }
 
