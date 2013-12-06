@@ -81,8 +81,9 @@ function test5(text) {
 // Returnera den näst sista bokstaven i textsträngen som kommer in i parametern text
 function test6(text) {
 	
+	// skapat variabel + lokaliserat näst sista bokstaven
 	var locate_x = text.charAt(text.length-2);
-	
+	// returnerat variabeln som lokaliserat bokstaven 'x'
 	return locate_x;
 	
 }
@@ -97,7 +98,12 @@ function test6(text) {
 // ska du returnera textsträngen "Karlsson, Greta"
 function test7(firstname, surname) {
 	
-	// Din kod skrivs här
+	// skapat två variabler för strängarna. En för space + en för förnamn + efternamn
+	var space = ", "
+	var fullname = surname + space + firstname;
+	console.log(fullname);
+	// returnerat förnamn + efternamn
+	return fullname;
 	
 }
 
