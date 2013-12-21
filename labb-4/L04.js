@@ -155,7 +155,19 @@ function test9(number) {
 
 function test10(epost, namn) {
 	
-	// Din kod skrivs här
+    if(epost.length === 0||namn.length === 0){
+    return "Du har glömt att ange namn eller e-post";     
+    
+}   
+    
+    else if (epost.indexOf("@")< 0){ 
+    return "Ange en e-postadress"; 
+}
+
+
+    else { return"Ditt meddelande skickas";
+	
+}
 }
 
 /*
@@ -168,7 +180,17 @@ function test10(epost, namn) {
 //(se länktips i handledningen)
 function test11(arr) {
 	
-	// Din kod skrivs här
+	arr.sort
+
+    var half = Math.floor(arr.length/2);
+
+    if(arr.length % 2)
+    
+    return arr[half];
+    
+    /* Fick inspiration från internet, förstår inte riktigt hur detta funkar 
+    men det blev rätt. Wohoo! */
+	
 }
 
 
@@ -181,9 +203,21 @@ function test11(arr) {
 // Använd en for-loop för att lösa problemet
 function test12(arr) {
 	
-	// Din kod skrivs här
-	
+    var summa= 0; 	
+
+    for(var i = 0; i < arr.length; i++) {
+
+
+    summa += arr[i];
 }
+
+    var resultat= summa/ arr.length;
+
+    return resultat; 
+ 
+ }
+
+
 
 
 
