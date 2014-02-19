@@ -1,0 +1,55 @@
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.8em;    
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left:-100px;
+    color: purple;
+    opacity: 0.8;
+}
+
+p {
+    font-family: times;
+    text-align: center;
+    margin-top: 10px;
+    color: purple;
+    font-weight: lighter;
+}
+
+#container {
+    margin: 0 auto;
+    height: auto;
+    width: 300px;
+    margin-top: 150px;
+}
+
+#text {
+    width: 125px;
+    height: 40px;
+    float: left;
+    background-color: beige;
+}
+
+#knapp2{
+    width: 125px;
+    height: 40px;
+    background-color: white;
+    display: block;
+    float: left;
+    border: gray 1px solid ;
+}
+
+#resultat {
+    width: 250px;
+    height: auto;
+    background-color: grey;
+    float: left;
+    color: white;
+    font-family: 'Myriad Pro';
+    font-size: 0.85em;    
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}  
