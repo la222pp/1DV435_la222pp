@@ -1,29 +1,24 @@
 <!doctype html>
-<html lang="sv"> 
+<html lang="sv">
 
 	<head>
 	
 		<title> Start </title>
 		<link href="valuta.css" type="text/css" rel="stylesheet"/>
-		<meta charset="utf-8"/>
+		<meta charset="utf-8">
 		   
 	</head>
 	
 	<body>
 	    <div id="container">	
 		    <h1>Valutakonventeraren</h1>
-		        <form id="valutakonventerare"></form>
-		         <input type="text" id="text">
-		          <a href="#" id="knapp">
-                   <div id="knapp2">
-                    <p>Konventera</p>
-                   </div>
-                  </a>
-		
-		
+		        <div id="valutakonventerare"><form action="javascript:converter(document.getElementById('nummer').value)">
+		        <input type="text" id="nummer" placeholder="Skriv här">
+		        <input type="Submit" value="Konvertera">
 		        </form>
+		   	     </div>
 	    <div id="resultat"></div>
 	    </div>
-	<script src="valuta.js"></script>	
+	<script type="text/javascript" src="valuta2.js"></script>
 	</body>
 </html>
